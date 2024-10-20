@@ -80,3 +80,123 @@
 
 ![image](https://github.com/user-attachments/assets/e21a2ba0-d701-42f4-a916-20380e3a4011)
 
+<h2>Membuat description list</h2>
+
+    <section id="unorder-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>Fakultas Teknik</dt>
+            <dd>Teknik Industri</dd>
+            <dd>Teknik Informatika</dd>
+            <dd>Teknik Lingkungan</dd>
+            <dt>Fakultas Ekonomi dan Bisnis</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+
+![image](https://github.com/user-attachments/assets/57d34492-d4cb-4b04-a397-71c2356241e2)
+
+<h2>membuat table</h2>
+
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+
+![image](https://github.com/user-attachments/assets/21956fcd-16a0-4ab3-86db-994c5bf1fb88)
+
+<h2>menggabungkan sel data</h2>
+
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+
+![image](https://github.com/user-attachments/assets/c2d3182a-62e6-4c9a-a105-3b7e8b32d938)
+
+<h2>membuat form</h2>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML LANJUTAN</title>
+    </head>
+    <body>
+        <header>
+            <h1>membuat form</h1>
+        </header>
+        
+        <form action="proses.php" method="post">
+            <fieldset>
+                <legend> Data pelanggan</legend>
+                <p>
+                    <label for="nama">nama</label>
+                    <input type="text" id="nama" name="nama">
+                </p>
+                <p>
+                    <label for="alamat">alamat</label>
+                    <textarea name="alamat" id="alamat" cols="20" rows="3"></textarea>
+                </p>
+                <p>
+                    <label>Jenis kelamin</label>
+                    <input type="radio" id="jk_1" name="kelamin" value="L">
+                    <label for="jk_1">laki laki</label>
+                    <input type="radio" id="jk_p" name="kelamin" value="P">
+                    <label for="jk_p">Perempuan</label>
+                </p>
+                <p><input type="submit" value="login"></p>
+            </fieldset>
+        </form>
+    </body>
+    </html>
+
+![image](https://github.com/user-attachments/assets/f81efb92-4353-4646-863e-972144af8e21)
+
+
