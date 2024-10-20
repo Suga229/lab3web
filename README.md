@@ -67,4 +67,16 @@
         
 ![image](https://github.com/user-attachments/assets/2d7427fa-bf4a-4832-8a60-5dedd78f8f2f)
 
+<h2>membuat unorder list</h2>
+
+    <section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma &amp; Pemrograman</li>
+        </ul>
+    </section>
+
+![image](https://github.com/user-attachments/assets/e21a2ba0-d701-42f4-a916-20380e3a4011)
 
