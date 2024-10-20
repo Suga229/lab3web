@@ -40,3 +40,31 @@
 
 ![image](https://github.com/user-attachments/assets/d61d6414-0e0e-4dcd-afa8-564087c50e84)
 
+<h1>Laporan praktikum</h1>
+
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Membuat list</h1>
+    </body>
+    </html>
+
+<h2>membuat ordered list</h2>
+
+       <section id="order-list">
+            <h2>Ordered List</h2>
+            <ol>
+                <li>Pemrograman Web</li>
+                <li>Sistem Informasi</li>
+                <li>Basis Data 2</li>
+            </ol>
+        </section>
+        
+![image](https://github.com/user-attachments/assets/2d7427fa-bf4a-4832-8a60-5dedd78f8f2f)
+
+
